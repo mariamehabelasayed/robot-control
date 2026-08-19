@@ -19,27 +19,18 @@ A custom ROS2 Python package built for **Turtlesim** that acts as a tuner car si
    ```bash
    sudo apt install ros-jazzy-turtlesim -y
 
-   **Clone or place the package into your workspace source directory:**
- cd ~/tuner_ws/src
-    # (Ensure 'midnight_tuner' folder is placed here)
-
-    **Build the workspace:**
-    cd ~/tuner_ws
-    colcon build --packages-select midnight_tuner
-
-    **Source your environment:**
-    source /opt/ros/jazzy/setup.bash
-    source install/setup.bash
-
 **Clone or place the package into your workspace source directory:**
+bash
     cd ~/tuner_ws/src
 
     **Build the workspace:**
+    bash
 
     cd ~/tuner_ws
     colcon build --packages-select midnight_tuner
 
     **Source your environment:**
+    bash
 
     source /opt/ros/jazzy/setup.bash
     source install/setup.bash
@@ -48,11 +39,13 @@ A custom ROS2 Python package built for **Turtlesim** that acts as a tuner car si
 If your terminal capture requires a direct standard input stream for keyboard controls, run the nodes across two separate terminals:
 
     **Terminal 1 (Start Simulation):**
+    bash
 
     source /opt/ros/jazzy/setup.bash
     ros2 run turtlesim turtlesim_node
 
     **Terminal 2 (Start Tuner Controller):**
+    bash
 
     cd ~/tuner_ws
     source /opt/ros/jazzy/setup.bash
