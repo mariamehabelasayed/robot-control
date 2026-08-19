@@ -24,13 +24,13 @@ bash
     cd ~/tuner_ws/src
 
     **Build the workspace:**
-    bash
+    
 
     cd ~/tuner_ws
     colcon build --packages-select midnight_tuner
 
     **Source your environment:**
-    bash
+    
 
     source /opt/ros/jazzy/setup.bash
     source install/setup.bash
@@ -39,13 +39,13 @@ bash
 If your terminal capture requires a direct standard input stream for keyboard controls, run the nodes across two separate terminals:
 
     **Terminal 1 (Start Simulation):**
-    bash
+    
 
     source /opt/ros/jazzy/setup.bash
     ros2 run turtlesim turtlesim_node
 
     **Terminal 2 (Start Tuner Controller):**
-    bash
+    
 
     cd ~/tuner_ws
     source /opt/ros/jazzy/setup.bash
