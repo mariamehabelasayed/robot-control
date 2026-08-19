@@ -1,0 +1,2 @@
+[console_scripts]
+tuner_controller = midnight_tuner.tuner_controller:main

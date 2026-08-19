@@ -1,0 +1,25 @@
+[1.833s] Invoking command in '/home/mariamehab/tuner_ws/src/midnight_tuner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariamehab/tuner_ws/build/midnight_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/midnight_tuner build --build-base /home/mariamehab/tuner_ws/build/midnight_tuner/build install --record /home/mariamehab/tuner_ws/build/midnight_tuner/install.log --install-scripts $base/lib/midnight_tuner --single-version-externally-managed install_data
+[2.426s] running egg_info
+[2.492s] writing ../../build/midnight_tuner/midnight_tuner.egg-info/PKG-INFO
+[2.493s] writing dependency_links to ../../build/midnight_tuner/midnight_tuner.egg-info/dependency_links.txt
+[2.494s] writing entry points to ../../build/midnight_tuner/midnight_tuner.egg-info/entry_points.txt
+[2.497s] writing requirements to ../../build/midnight_tuner/midnight_tuner.egg-info/requires.txt
+[2.497s] writing top-level names to ../../build/midnight_tuner/midnight_tuner.egg-info/top_level.txt
+[2.605s] reading manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+[2.606s] adding license file 'LICENSE'
+[2.607s] writing manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+[2.607s] running build
+[2.608s] running build_py
+[2.608s] copying midnight_tuner/tuner_controller.py -> /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner
+[2.608s] running install
+[2.651s] running install_lib
+[2.748s] copying /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner/tuner_controller.py -> /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner
+[2.751s] byte-compiling /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner/tuner_controller.py to tuner_controller.cpython-312.pyc
+[2.752s] running install_data
+[2.752s] running install_egg_info
+[2.811s] removing '/home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner-0.0.0-py3.12.egg-info' (and everything under it)
+[2.811s] Copying ../../build/midnight_tuner/midnight_tuner.egg-info to /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner-0.0.0-py3.12.egg-info
+[2.813s] running install_scripts
+[3.167s] Installing tuner_controller script to /home/mariamehab/tuner_ws/install/midnight_tuner/lib/midnight_tuner
+[3.171s] writing list of installed files to '/home/mariamehab/tuner_ws/build/midnight_tuner/install.log'
+[3.258s] Invoked command in '/home/mariamehab/tuner_ws/src/midnight_tuner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariamehab/tuner_ws/build/midnight_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/midnight_tuner build --build-base /home/mariamehab/tuner_ws/build/midnight_tuner/build install --record /home/mariamehab/tuner_ws/build/midnight_tuner/install.log --install-scripts $base/lib/midnight_tuner --single-version-externally-managed install_data

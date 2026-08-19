@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: midnight-tuner
+Version: 0.0.0
+Summary: Midnight Tuner ROS2 package
+Maintainer: mariamehab
+Maintainer-email: mariamehab@todo.todo
+License: Apache-2.0
+License-File: LICENSE

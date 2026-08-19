@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/midnight_tuner/midnight_tuner.egg-info
+writing ../../build/midnight_tuner/midnight_tuner.egg-info/PKG-INFO
+writing dependency_links to ../../build/midnight_tuner/midnight_tuner.egg-info/dependency_links.txt
+writing entry points to ../../build/midnight_tuner/midnight_tuner.egg-info/entry_points.txt
+writing requirements to ../../build/midnight_tuner/midnight_tuner.egg-info/requires.txt
+writing top-level names to ../../build/midnight_tuner/midnight_tuner.egg-info/top_level.txt
+writing manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+reading manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mariamehab/tuner_ws/build/midnight_tuner/build
+creating /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib
+creating /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner
+copying midnight_tuner/__init__.py -> /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner
+copying midnight_tuner/tuner_controller.py -> /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner
+running install
+running install_lib
+creating /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner
+copying /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner/__init__.py -> /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner
+copying /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner/tuner_controller.py -> /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner
+byte-compiling /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner/tuner_controller.py to tuner_controller.cpython-312.pyc
+running install_data
+creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index
+creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index/resource_index
+creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index/resource_index/packages
+copying resource/midnight_tuner -> /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index/resource_index/packages
+copying package.xml -> /home/mariamehab/tuner_ws/install/midnight_tuner/share/midnight_tuner
+creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/midnight_tuner/launch
+copying launch/bringup.launch.py -> /home/mariamehab/tuner_ws/install/midnight_tuner/share/midnight_tuner/launch
+running install_egg_info
+Copying ../../build/midnight_tuner/midnight_tuner.egg-info to /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner-0.0.0-py3.12.egg-info
+running install_scripts
+Installing tuner_controller script to /home/mariamehab/tuner_ws/install/midnight_tuner/lib/midnight_tuner
+writing list of installed files to '/home/mariamehab/tuner_ws/build/midnight_tuner/install.log'

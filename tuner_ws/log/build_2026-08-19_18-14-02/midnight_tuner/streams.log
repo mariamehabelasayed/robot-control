@@ -1,0 +1,33 @@
+[2.192s] Invoking command in '/home/mariamehab/tuner_ws/src/midnight_tuner': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariamehab/tuner_ws/build/midnight_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/midnight_tuner build --build-base /home/mariamehab/tuner_ws/build/midnight_tuner/build install --record /home/mariamehab/tuner_ws/build/midnight_tuner/install.log --install-scripts $base/lib/midnight_tuner --single-version-externally-managed install_data
+[2.775s] running egg_info
+[2.775s] creating ../../build/midnight_tuner/midnight_tuner.egg-info
+[2.838s] writing ../../build/midnight_tuner/midnight_tuner.egg-info/PKG-INFO
+[2.838s] writing dependency_links to ../../build/midnight_tuner/midnight_tuner.egg-info/dependency_links.txt
+[2.838s] writing requirements to ../../build/midnight_tuner/midnight_tuner.egg-info/requires.txt
+[2.838s] writing top-level names to ../../build/midnight_tuner/midnight_tuner.egg-info/top_level.txt
+[2.838s] writing manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+[2.930s] reading manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+[2.931s] adding license file 'LICENSE'
+[2.932s] writing manifest file '../../build/midnight_tuner/midnight_tuner.egg-info/SOURCES.txt'
+[2.938s] running build
+[2.938s] running build_py
+[2.938s] creating /home/mariamehab/tuner_ws/build/midnight_tuner/build
+[2.939s] creating /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib
+[2.939s] creating /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner
+[2.939s] copying midnight_tuner/__init__.py -> /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner
+[2.939s] running install
+[2.954s] running install_lib
+[2.994s] creating /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner
+[2.995s] copying /home/mariamehab/tuner_ws/build/midnight_tuner/build/lib/midnight_tuner/__init__.py -> /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner
+[2.995s] byte-compiling /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner/__init__.py to __init__.cpython-312.pyc
+[2.995s] running install_data
+[2.995s] creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index
+[2.995s] creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index/resource_index
+[2.995s] creating /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index/resource_index/packages
+[2.995s] copying resource/midnight_tuner -> /home/mariamehab/tuner_ws/install/midnight_tuner/share/ament_index/resource_index/packages
+[2.995s] copying package.xml -> /home/mariamehab/tuner_ws/install/midnight_tuner/share/midnight_tuner
+[2.995s] running install_egg_info
+[3.037s] Copying ../../build/midnight_tuner/midnight_tuner.egg-info to /home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages/midnight_tuner-0.0.0-py3.12.egg-info
+[3.037s] running install_scripts
+[3.321s] writing list of installed files to '/home/mariamehab/tuner_ws/build/midnight_tuner/install.log'
+[3.388s] Invoked command in '/home/mariamehab/tuner_ws/src/midnight_tuner' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mariamehab/tuner_ws/build/midnight_tuner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mariamehab/tuner_ws/install/midnight_tuner/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/midnight_tuner build --build-base /home/mariamehab/tuner_ws/build/midnight_tuner/build install --record /home/mariamehab/tuner_ws/build/midnight_tuner/install.log --install-scripts $base/lib/midnight_tuner --single-version-externally-managed install_data
